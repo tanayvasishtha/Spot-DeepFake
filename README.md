@@ -1,28 +1,46 @@
-# Spot DeepFake
-
-Advanced deepfake detection system using EfficientNetB0 transfer learning with professional Streamlit web interface.
+# Spot DeepFake: Advanced Deepfake Detection System
 
 ## Overview
 
-Spot DeepFake detects AI-generated fake images and videos (deepfakes) with 96-98% accuracy. Using transfer learning on pretrained EfficientNetB0, the system generalizes well to modern deepfake generation methods including Sora and Grok.
+Spot DeepFake is a professional-grade AI system for detecting AI-generated deepfake images and videos with 95.67% accuracy using EfficientNetB0 transfer learning.
 
-## Key Features
+## Features
 
-- **High Accuracy:** 96-98% validation accuracy on diverse datasets
-- **Real-time Detection:** Analyzes images instantly, videos frame-by-frame
-- **Transfer Learning:** Leverages ImageNet-pretrained EfficientNetB0
-- **Professional UI:** Clean, modern Streamlit interface
-- **Fully Free:** Google Colab training + Streamlit Cloud deployment
-- **Academic Ready:** Complete documentation for professor submission
+- Real-time image and video analysis
+- 95.67% validation accuracy
+- Professional, clean UI (no gradients/emojis)
+- EfficientNetB0 architecture with custom classifier
+- Free deployment on Streamlit Cloud
+- Complete documentation and reproducibility
 
 ## Technology Stack
 
-- **Framework:** PyTorch 2.0
-- **Model:** EfficientNetB0 (4.2M parameters)
+- **Model:** PyTorch EfficientNetB0
+- **Framework:** Streamlit
 - **Training:** Google Colab (Tesla T4 GPU)
 - **Deployment:** Streamlit Cloud
-- **Data Storage:** Google Drive
-- **Version Control:** GitHub
+- **Language:** Python 3.9+
+
+## Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Validation Accuracy | 95.67% |
+| Precision | 97.00% |
+| Recall | 94.25% |
+| F1-Score | 0.9560 |
+| Model Size | ~18 MB |
+| Inference Time | 50-100ms |
+
+## Installation & Setup
+
+### Local Setup
+
+1. Clone repository:
+```bash
+git clone https://github.com/YOUR_USERNAME/Spot_DeepFake.git
+cd Spot_DeepFake
+
 
 ## Performance Metrics
 
