@@ -18,10 +18,11 @@ Spot DeepFake is a state-of-the-art deep learning system for detecting AI-genera
 8. [Project Structure](#project-structure)
 9. [Technology Stack](#technology-stack)
 10. [Deployment](#deployment)
-11. [Future Work](#future-work)
-12. [Contributing](#contributing)
-13. [License](#license)
-14. [References](#references)
+11. [Resources and Data](#resources-and-data)
+12. [Future Work](#future-work)
+13. [Contributing](#contributing)
+14. [License](#license)
+15. [References](#references)
 
 ---
 
@@ -127,10 +128,24 @@ cd Spot-DeepFake
 pip install -r requirements.txt
 ```
 
-3. **Verify model file**:
-Ensure `models/spot_deepfake_efficientnetb0_best.pth` is present in the repository.
+3. **Download resources from Google Drive**:
+   - **Model Weights**: The trained model (`spot_deepfake_efficientnetb0_best.pth`) is available in the repository, but additional model variants can be found in the [Google Drive folder](https://drive.google.com/drive/folders/1uM_fPRFLzv-LAShD0LmLv3AtsvCtv2nP?usp=drive_link)
+   - **Datasets**: Training and validation datasets are stored in the Drive folder
+   - **Notebooks**: Jupyter notebooks for training and experimentation
+   - **Reports**: Detailed training reports and analysis documents
 
-4. **Run the application**:
+   **Google Drive Resources**: [Access Drive Folder](https://drive.google.com/drive/folders/1uM_fPRFLzv-LAShD0LmLv3AtsvCtv2nP?usp=drive_link)
+   
+   The Drive folder contains:
+   - `data/` - Training and validation datasets
+   - `models/` - Additional model checkpoints and variants
+   - `notebooks/` - Training notebooks and experiments
+   - `reports/` - Training metrics and analysis reports
+
+4. **Verify model file**:
+Ensure `models/spot_deepfake_efficientnetb0_best.pth` is present in the repository (included in the repository, or download from Drive if needed).
+
+5. **Run the application**:
 ```bash
 streamlit run app/spot_deepfake_app.py
 ```
@@ -337,6 +352,17 @@ Spot-DeepFake/
 └── README.md                           # This file
 ```
 
+### Additional Resources on Google Drive
+
+For complete project resources including large datasets, additional model checkpoints, detailed training notebooks, and comprehensive reports, please refer to our [Google Drive folder](https://drive.google.com/drive/folders/1uM_fPRFLzv-LAShD0LmLv3AtsvCtv2nP?usp=drive_link):
+
+- **data/**: Complete training and validation datasets (too large for GitHub)
+- **models/**: Additional model checkpoints and training variants
+- **notebooks/**: Full Jupyter notebooks with training experiments and analysis
+- **reports/**: Detailed training reports, metrics, and performance analysis
+
+**Note**: The repository includes the essential model file (`spot_deepfake_efficientnetb0_best.pth`) for immediate use. The Drive folder contains supplementary resources for research, training, and detailed analysis.
+
 ---
 
 ## Technology Stack
@@ -482,12 +508,32 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
+## Resources and Data
+
+### Google Drive Repository
+
+All project resources including datasets, additional model checkpoints, training notebooks, and detailed reports are available in our [Google Drive folder](https://drive.google.com/drive/folders/1uM_fPRFLzv-LAShD0LmLv3AtsvCtv2nP?usp=drive_link):
+
+| Folder | Contents | Size |
+|--------|----------|------|
+| **data/** | Training and validation datasets | Large (multiple GB) |
+| **models/** | Additional model checkpoints and variants | ~18-50 MB each |
+| **notebooks/** | Jupyter notebooks for training and experiments | Varies |
+| **reports/** | Training metrics, analysis reports, and documentation | Varies |
+
+**Access Link**: [Spot DeepFake Google Drive](https://drive.google.com/drive/folders/1uM_fPRFLzv-LAShD0LmLv3AtsvCtv2nP?usp=drive_link)
+
+**Note**: The GitHub repository includes the essential model file for immediate deployment. The Drive folder contains comprehensive resources for researchers, including full datasets, training notebooks, and detailed analysis reports.
+
+---
+
 ## Contact and Support
 
 For questions, issues, or collaboration inquiries:
 
 - **GitHub Issues**: [Create an issue](https://github.com/tanayvasishtha/Spot-DeepFake/issues)
 - **Repository**: https://github.com/tanayvasishtha/Spot-DeepFake
+- **Resources**: [Google Drive Folder](https://drive.google.com/drive/folders/1uM_fPRFLzv-LAShD0LmLv3AtsvCtv2nP?usp=drive_link)
 
 ---
 
