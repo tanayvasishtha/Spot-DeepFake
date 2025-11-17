@@ -32,6 +32,8 @@ Deepfake technology has emerged as a significant threat to digital media authent
 
 The system leverages EfficientNetB0, a state-of-the-art convolutional neural network architecture, fine-tuned on diverse deepfake datasets. Unlike traditional approaches that rely solely on averaging frame-level predictions, our implementation employs hybrid voting mechanisms and high-confidence triggers to minimize false negatives while maintaining precision.
 
+**🌐 Try it now**: [Live Web Application](https://spotdeepfake.streamlit.app/)
+
 ---
 
 ## Features
@@ -392,6 +394,12 @@ For complete project resources including large datasets, additional model checkp
 
 ## Deployment
 
+### Live Application
+
+**🌐 Access the live application**: [Spot DeepFake Web App](https://spotdeepfake.streamlit.app/)
+
+The application is deployed on Streamlit Cloud and ready for use. Simply upload an image or video to get instant deepfake detection results.
+
 ### Streamlit Cloud Deployment
 
 1. **Push to GitHub**: Ensure all files are committed and pushed
@@ -403,6 +411,8 @@ For complete project resources including large datasets, additional model checkp
    - Main file: `app/spot_deepfake_app.py`
    - Python version: 3.9+
 4. **Deploy**: Click "Deploy"
+
+**Live Demo**: [https://spotdeepfake.streamlit.app/](https://spotdeepfake.streamlit.app/)
 
 ### Local Deployment
 
@@ -531,6 +541,7 @@ All project resources including datasets, additional model checkpoints, training
 
 For questions, issues, or collaboration inquiries:
 
+- **🌐 Live Application**: [https://spotdeepfake.streamlit.app/](https://spotdeepfake.streamlit.app/)
 - **GitHub Issues**: [Create an issue](https://github.com/tanayvasishtha/Spot-DeepFake/issues)
 - **Repository**: https://github.com/tanayvasishtha/Spot-DeepFake
 - **Resources**: [Google Drive Folder](https://drive.google.com/drive/folders/1uM_fPRFLzv-LAShD0LmLv3AtsvCtv2nP?usp=drive_link)
